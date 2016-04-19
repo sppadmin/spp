@@ -1,0 +1,59 @@
+---
+title: Home | Smart Private Practice
+---
+
+.logo
+  = image_tag "spp_logo.png", class: "welcome"
+
+.list-container
+  .list
+    %ul{:class => "fa-ul"}
+      %li
+        .list-element
+          %i.fa-li.fa.fa-check-circle
+          Every therapist has the ability to build a profitable and fulfilling private practice.
+      %li
+        .list-element
+          %i.fa-li.fa.fa-check-circle
+          It's too common for therapy practices to have trouble getting started...or stall. That's where we come in.
+      %li
+        .list-element
+          %i.fa-li.fa.fa-check-circle
+          Our mission is to provide the tools and environment to insure your success.
+
+.book-container
+  .book
+    %h1
+      10 STEPS TO DEVELOPING A SUCCESSFUL PRIVATE PRACTICE
+    %h3 
+      If you want more, our e-book is an in-depth look at building a successful private therapy practice!
+    .book-button
+      %a{href: "#", class: "button"}
+        Purchase Now
+.bio-container
+  .bio
+    .about-card
+      .about
+        %h1
+          About Us
+        %p
+          Smart Private Practice is a community of licensed psychotherapists with decades of experience running our businesses. We have, through trial and error, found best practices and resources for you.
+        %p
+          <span class = "bold">Anne McSorley</span> is the founder, editor, contributor liaison, and resource curator of SPP. Anne has 25 years of experience in private practice as a licensed psychotherapist and a board certified coach. Her smart private practice enterprise includes business consulting (workbestconsulting.com), clinical supervision, fee-for-service private practice, and executive coaching. Anne’s network includes countless successful and established mental health clinicians. If you are an SPP practitioner and would like to share your ideas in an upcoming edition, contact Anne at info@smartprivatepractice.com.
+    .pic
+      = image_tag "anne.png"
+.newsletter-container
+  .newseltter
+    =partial "form"
+
+= partial "footer"
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,68 @@
+// colors
+$blue: #003F87;
+$green: #43B02A;
+$orange: #CF2800;
+$dark-grey: rgba(0,0,0,0.7);
+$white: #FFFFFF;
+$dark-green: #46A135;
+$light-orange: #E64318;
+$slate: #242424;
+$off-white: #faddd1;
+
+//themes
+$primary: $blue;
+$secondary: $green;
+$accent: $orange;
+$base-font: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-size: 1.1em;
+$base-font-color: $dark-grey;
+$secondary-hover: $dark-green;
+$accent-hover: $light-orange;
+
+//media 
+$desktop-width: 1024px;
+$tablet-width: 768px;
+
+$container-desktop-width: 1000px;
+$container-tablet-width: 95%;
+
+@mixin phone {
+  @media (max-width: #{$tablet-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin small {
+  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
+
+@mixin element($color: -1) {
+  border-radius: 5px;
+  box-shadow: 1px 0px 5px #333;
+  @if $color == -1 {
+
+  } @else {
+    background: $color;
+  }
+}
+
+@mixin pic {
+  @include element;
+  border: 1px solid #333;
+}
+

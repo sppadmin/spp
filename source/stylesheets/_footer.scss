@@ -1,0 +1,21 @@
+.footer {
+  background: $slate;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  
+  p {
+    margin: 0;
+    padding: 40px;
+    color: $off-white; ;
+    font-weight: 300;
+
+    a {
+      text-decoration: none;
+      color: $accent;
+      float: right;
+      font-size: 20px;
+      font-weight: 500;
+    }
+  }
+
+}
