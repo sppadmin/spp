@@ -44,7 +44,7 @@ configure :build do
   activate :directory_indexes
 
   activate :s3_sync do |s3_sync|
-    s3_sync.bucket                     = 'smartprivatepractice'
+    s3_sync.bucket                     = 'smartprivatepractice.com'
     s3_sync.region                     = 'us-east-1'
     s3_sync.after_build                = false # We do not chain after the build step by default.
     s3_sync.prefer_gzip                = true
