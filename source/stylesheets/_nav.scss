@@ -1,5 +1,15 @@
 .nav {
   background: $secondary;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+
+  @include phone {
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    box-shadow: 1px -1px 15px #555;
+    background: rgba(40,40,40,0.9)
+  }
 
   ul {
     list-style: none;
@@ -11,14 +21,10 @@
 
     @include desktop {
       display: block !important;
-      border-top-left-radius: 5px;
-      border-top-right-radius: 5px;
     }
 
     @include tablet {
       display: block !important;
-      border-top-left-radius: 5px;
-      border-top-right-radius: 5px;
     }
 
     li {
@@ -29,10 +35,11 @@
         padding: 14px 16px;
         text-decoration: none;
         color: $white;
-        &:hover {background-color: $secondary-hover;}
+        &:hover {background-color: rbga(40,40,40,1);}
 
         @include phone {
           width: 100%;
+          &:hover {background: #333;}
         }
       }
     }
@@ -40,13 +47,17 @@
 
   #nav-button {
     color: $dark-grey;
+    position: fixed;
+    top: 0;
+    right: 0;
     background: $white;
     font-size: 30px;
     padding: 3px 7px;
     display: none;
     border-radius: 1px;
     border:1px solid #efefef;
-    box-shadow: 1px 0px 5px #555;
+    box-shadow: 1px 1px 5px #999;
+    margin: 5px;
 
     &:hover {
       cursor: pointer;
@@ -54,8 +65,7 @@
     }
 
     @include phone {
-      display: block;
-      float: right;
+      display: inline-block;
     }
   }
 }
