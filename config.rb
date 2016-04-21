@@ -23,6 +23,8 @@ configure :development do
   activate :livereload
 end
 
+ignore '**/*.swp'
+
 ###
 # Helpers
 ###

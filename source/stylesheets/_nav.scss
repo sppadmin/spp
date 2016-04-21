@@ -1,18 +1,22 @@
 .nav {
+  background: $secondary;
+
   ul {
     list-style: none;
     text-align: center;
-    background: $secondary;
     overflow: hidden;
     margin: 0;
     padding: 0;
+    display: none;
 
     @include desktop {
+      display: block !important;
       border-top-left-radius: 5px;
       border-top-right-radius: 5px;
     }
 
     @include tablet {
+      display: block !important;
       border-top-left-radius: 5px;
       border-top-right-radius: 5px;
     }
@@ -26,7 +30,32 @@
         text-decoration: none;
         color: $white;
         &:hover {background-color: $secondary-hover;}
+
+        @include phone {
+          width: 100%;
+        }
       }
+    }
+  }
+
+  #nav-button {
+    color: $dark-grey;
+    background: $white;
+    font-size: 30px;
+    padding: 3px 7px;
+    display: none;
+    border-radius: 1px;
+    border:1px solid #efefef;
+    box-shadow: 1px 0px 5px #555;
+
+    &:hover {
+      cursor: pointer;
+      background: #efefef;
+    }
+
+    @include phone {
+      display: block;
+      float: right;
     }
   }
 }
