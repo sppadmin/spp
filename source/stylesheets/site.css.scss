@@ -66,6 +66,7 @@ body {
   text-align: center;
 
   img {
+    max-width: 700px;
     width: 90%;
     height: auto;
     margin: 2em auto;
@@ -80,7 +81,7 @@ body {
   font-size: 1.3em;
   width: 85%;
   margin: 0 auto;
-  padding: 40px 0;
+  padding: 20px 0;
 
   @include phone {
     padding: 20px 0;
@@ -89,7 +90,7 @@ body {
   ul li {
 
     .list-element {
-      margin: 50px 0;
+      margin: 40px;
       color: $white;
       font-weight: 300;
 
