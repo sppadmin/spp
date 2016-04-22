@@ -117,6 +117,11 @@ body {
     .about-card {
       @include element($white);
 
+      p {
+        font-size: 1.17em;
+        line-height: 1.5em;
+      }
+
       .about {
         font-weight: 300;
         line-height: 26px;
@@ -205,7 +210,7 @@ input[type=email] {
   }
 
   &:focus {
-    box-shadow: 0px 0px 5px $secondary;
+    box-shadow: 0px 0px 5px #63CEFB;
   }
 }
 
