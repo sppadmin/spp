@@ -36,10 +36,18 @@ configure :build do
     s3_sync.index_document             = 'index.html'
     s3_sync.error_document             = '404.html'
   end
+
+  activate :disqus do |d|
+    d.shortname = "smartprivatepractice"
+  end
 end
 
 helpers do 
   def active(path)
     current_page.path == path ? {:class => "active"} : {}
+  end
+
+  def render_partial(partial)
+    partial "partials/#{partial}"
   end
 end
