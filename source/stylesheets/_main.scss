@@ -1,0 +1,90 @@
+body {
+  background: $primary;
+  font-family: $base-font;
+  font-size: $base-font-size;
+  color: $base-font-color;
+}
+
+.button {
+  margin: 10px 0;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  background: $accent;
+  border-radius: 5px;
+  color: $white;
+  transition:0.5s;
+  box-shadow: 1px 0px 5px #333;
+  border: none;
+  outline: none;
+
+  &:hover { background: $accent-hover; }
+}
+
+.container {
+  background-color: $white;
+  margin: 3em auto;
+
+  @include phone {
+    margin-top:0;
+    margin-bottom: 0;
+  }
+
+  @include desktop {
+    width: $container-desktop-width;
+    border-radius: 5px;
+  }
+
+  @include tablet {
+    width: $container-tablet-width;
+    border-radius: 5px;
+  }
+}
+
+.logo {
+  text-align: center;
+
+  img {
+    max-width: 700px;
+    width: 90%;
+    height: auto;
+    margin: 2em auto;
+  }
+}
+
+.bold {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: $blue;
+}
+
+.welcome {
+  -webkit-animation-name: welcome;
+  -webkit-animation-duration: .9s;
+}
+
+.newsletter-container {
+
+}
+
+@-webkit-keyframes welcome {
+  from {
+    -webkit-transform: scale(0);
+    opacity: 0;
+  }
+  60% {
+    -webkit-transform: scale(0);
+    opacity: 0;
+  }
+  82.5% {
+    -webkit-transform: scale(1.1);
+    -webkit-animation-timing-function: ease-out;
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}

@@ -19,8 +19,9 @@
 
   <body class="<%= page_classes %>">
     <div class = "container">
-      <%= partial "nav" %>
+      <%= render_partial "nav" %>
       <%= yield %>
+      <%= render_partial "footer" %>
     </div>
   </body>
 </html>

@@ -1,0 +1,59 @@
+.bio-container {
+  background: $secondary;
+  padding: 70px 10px;
+  .bio {
+    width: 85%;
+    margin: 0 auto;
+
+    @include phone {
+      width: 100%;
+    }
+
+    .about-card {
+      @include element($white);
+
+      p {
+        font-size: 1.17em;
+        line-height: 1.5em;
+      }
+
+      .about {
+        font-weight: 300;
+        line-height: 26px;
+        padding: 50px 30px;
+
+        h1 {
+          margin: 0;
+          color: $accent;
+        }
+      }
+    }
+  }
+
+  .pic {
+    text-align: center;
+    margin-top: 30px;
+    img {
+      @include pic;
+    }
+  }
+
+  @include desktop {
+    .about-card {
+      display: inline-block;
+      width: 550px;
+    }
+
+    .pic {
+      margin: 50px 30px;
+      float: right;
+      vertical-align: top;
+
+      img {
+        height: auto;
+        width: 200px;
+      }
+    }
+  }
+
+}

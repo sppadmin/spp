@@ -1,0 +1,29 @@
+.list-container {
+  background: $secondary;
+}
+
+.list {
+  font-size: 1.3em;
+  width: 85%;
+  margin: 0 auto;
+  padding: 20px 0;
+
+  @include phone {
+    padding: 20px 0;
+  }
+
+  ul li {
+
+    .list-element {
+      margin: 40px;
+      color: $white;
+      font-weight: 300;
+
+      i { 
+        color: $primary; 
+        font-size: 24px;
+      }
+    }
+  }
+
+}
