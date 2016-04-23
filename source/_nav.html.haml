@@ -2,10 +2,13 @@
   #nav-button
     %i.fa.fa-bars
   %ul
-    %li= link_to "Home", "#"
+    %li{ active('index.html') }
+      = link_to "Home", "/"
     %li= link_to "Book", "#"
-    %li= link_to "Resources", "#"
-    %li= link_to "Blog", "#"
+    %li{ active('resources.html') }
+      = link_to "Resources", "#"
+    %li{ active('blog.html') }
+      = link_to "Blog", "/blog"
     %li= link_to "Contact", "#"
 
 

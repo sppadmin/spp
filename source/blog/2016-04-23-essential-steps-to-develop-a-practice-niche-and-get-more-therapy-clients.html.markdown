@@ -1,0 +1,22 @@
+---
+title: Essential Steps to Develop a Practice Niche and Get More Therapy Clients
+date: 2016-04-23 02:03 UTC
+tags:
+---
+
+“Eclectic,” “generalist,” “adult and adolescent psychotherapy.”
+ 
+These are some of the phrases I hear when I am marketed by clinicians in private practice that are looking for new clients. These words don’t tell me anything I can use to refer to their practice other than that they have a license and an office.
+
+Our market is a competitive one. Masters- and doctorate-level clinicians in three or four different disciplines all occupy the same professional space. It is imperative that you stand out as you build your practice. Standing out does not mean you are committed to seeing one kind of client in your career. Rather, it means you have a focus — something you have found that ignites your curiosity and commitment. As you describe this passion to a referral source, the authenticity will be apparent. As someone who refers at least 2 times per week, I know I feel a whole lot better sending someone to therapists who shine and are enthusiastic about their niches.
+
+Let me give you an example. My friend and colleague, Charlie, is an adolescent therapist. He doesn’t see just any teenager; he specifies. “Give me any oppositional teenager — my favorite is a boy who everyone else has given up on — and I will try my best.” Wow. Why would I send that client to anyone else? The therapist who tells me they “like adolescents but only if they are over 15” has nothing on Charlie. And, by the way, after I referred a couple of times to Charlie and heard through the parents how things were going, I passed on the parents of oppositional adolescents, too. They have the same investment as Charlie: they love their child and he’s on their team, wholeheartedly. Charlie, while enjoying his niche, sees that some of the same characteristics he loves about adolescents shows up in the parents. He expanded his niche by carrying the theme through to another kind of client. 
+
+The problem I have when I see ambivalent therapists marketing their hearts out is that their goals do not seem to meet their personal commitments. I know it feels counterintuitive, especially as you are starting out, but really spend some time exploring the one thing that floats your boat and that you never tire of talking about. It’s the client who you slide your unslidable fee for, the problem you see clearly with energy and verve. I call it the Sunday morning appointment niche. Who would I talk to on Sunday morning for free? (Answer: Beginning therapists who are finding their niche!)
+
+If you don’t believe me, try this. As you develop your Marketing Plan, which includes your Elevator Speech, pick a friendly colleague to practice with. Use two different approaches. Go the general route and talk about your commitment to being an available and affordable therapist who sees a wide variety of clients. Now do it again. This time pick a client with a favorite issue. See them in your mind’s eye and think about how you proceeded through treatment. Tell your colleague that’s your niche and tell them why. Explain how you usually plan to proceed. Forget the available and affordable bit. Just talk about your niche. Ask them to rate you from 1 to 5 (with 5 being the best) to see which speech had more impact. Yep. The second practice speech usually wins.
+
+If my Sunday morning appointment test and my practice speeches still don’t yield your niche, look a little deeper. Pick a therapeutic category or a description —addiction, attachment, oppositional, abusive, supportive, conflicted, confused — and see if you can find a theme that’s been around since you first became interested in the human condition. I find that most therapists have a particular penchant for the thing they know best, usually through their own experience, family, or life events. I won’t give him completely away, but there’s a reason Charlie likes to mix it up with oppositional adolescents! Group words together that appeal to you. Imagine the client who has those characteristics. Feel your inner advocate take over. I’m betting that you feel your energy rise as you develop the profile. 
+
+If all else fails, here’s a surefire way to determine your niche. Think about the client that at the end of the session, you were so caught up in the discussion that you once again forgot to collect the fee. Tell me that isn’t a clue about your commitment!
+

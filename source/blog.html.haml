@@ -1,0 +1,16 @@
+---
+title: Blog | Smart Private Practice
+---
+
+.blog-container
+  .blog-welcome
+    = image_tag "spp_logo_smallest.png"
+  .summaries
+    - blog.articles.each do |article|
+      .article-summary
+        %h1= article.title
+        %p= article.summary
+        %p
+          = link_to "Read More", article.url
+
+

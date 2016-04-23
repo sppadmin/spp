@@ -1,40 +1,18 @@
-###
-# Page options, layouts, aliases and proxies
-###
+activate :blog do |b|
+  b.prefix = "blog"
+  b.permalink = "{title}"
+  b.layout = "article_layout"
+end
 
-# Per-page layout changes:
-#
-# With no layout
 page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
 
-# With alternative layout
-# page "/path/to/file.html", layout: :otherlayout
-
-# Proxy pages (http://middlemanapp.com/basics/dynamic-pages/)
-# proxy "/this-page-has-no-template.html", "/template-file.html", locals: {
-#  which_fake_page: "Rendering a fake page with a local variable" }
-
-# General configuration
-
-# Reload the browser automatically whenever files change
 configure :development do
   activate :livereload
 end
 
 ignore '**/*.swp'
-
-###
-# Helpers
-###
-
-# Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
 
 # Build-specific configuration
 configure :build do
@@ -57,5 +35,11 @@ configure :build do
     s3_sync.version_bucket             = false
     s3_sync.index_document             = 'index.html'
     s3_sync.error_document             = '404.html'
+  end
+end
+
+helpers do 
+  def active(path)
+    current_page.path == path ? {:class => "active"} : {}
   end
 end
